@@ -1,0 +1,25 @@
+Assuming unrestricted shared filesystem usage.
+None
+host: Apples-MacBook-Pro.local
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job      count
+-----  -------
+hello        1
+total        1
+
+Select jobs to execute...
+Execute 1 jobs...
+[Mon Jul 14 18:12:15 2025]
+localrule hello:
+    output: hello.txt
+    jobid: 0
+    reason: Missing output files: hello.txt
+    resources: tmpdir=/var/folders/cn/gx6424r16yq8xb0t84gpmxdh0000gn/T
+[Mon Jul 14 18:12:15 2025]
+Finished jobid: 0 (Rule: hello)
+1 of 1 steps (100%) done
+Complete log(s): /Users/apple/Desktop/Infectious diseseas/demo/.snakemake/log/2025-07-14T181215.661334.snakemake.log
