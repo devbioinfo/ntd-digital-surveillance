@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this pipeline, please cite it as below."
+title: "Digital Surveillance Pipeline for India’s Vector‑borne NTDs"
+version: "0.1.0"
+date-released: "2025-07-15"
+authors:
+  - family-names: Biswal
+    given-names: Devendra Kumar
+  - family-names: Konhar
+    given-names: Ruchishree
+  - family-names: Lalsanga
+    given-names: James K
+license: MIT
+repository-code: "https://github.com/DEVBIOINFO/ntd-digital-surveillance"
